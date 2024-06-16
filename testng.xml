@@ -3,6 +3,7 @@
     <test name="BasicTest" parallel="true">
         <classes>
             <class name="api.PositivOpeningPages"/>
+            <class name="api.TestPositive"></class>
         </classes>
     </test>
 </suite>

@@ -13,7 +13,7 @@ public class TestPositive {
     private final static String url = "https://reqres.in/";
 
 
-    @Test(threadPoolSize = 4, invocationCount = 10)
+    @Test
     public void testReqresGetting() {
         System.out.println( "THREADDDDDDDDDDDDDDDDDDDDDDDDD"+Thread.currentThread().getName());
         RegisterRequest request = RegisterRequest.builder()
